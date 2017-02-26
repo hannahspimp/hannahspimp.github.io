@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" type="text/css" href="ourcss">
+    <link rel="stylesheet" type="text/css" href="ourcss.css">
+    <link rel='stylesheet' href='bootstrap-3.3.7-dist copy/css/bootstrap.css'
         <title>"More Than Spaghetti..."</title>
     </head>
     <body>
@@ -18,13 +19,55 @@
         <p>Another one pot dish, with minimal ingredients but great taste. This authentic italian dish is brilliant if you're looking for something cheap. It's not great on speed but it is great on taste. Servings: 2 </p>
         <h2>Chilli con Carne</h2>
         <p></p>
-    	<ul>
-    		<li>Soups</li>
-    		<li>One Pot Wonders!</li>
-    		<li>Rice Dishes</li>
-    		<li>No Oven? No Problem!</li>
-    		<li>Light Bites</li>
-    		<li>Dessert!</li>
-    	</ul>	
+        <div>
+            <form> <!--action="script.php" method="post"--><!--Found that action is meant to be of this form but can't work out how you go about storing any of the information from the form?-->
+                <div class='col-md-6'> 
+                    <div class='row'>
+                        <div class="spacings">
+                            <input type="text" placeholder="Recipe name">
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="spacings">
+                            <input  type='text' placeholder='Your name'>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class="spacings">
+                            <select>
+                                <option>Vegetarian</option>
+                                <option>Vegan</option>
+                                <option>Meaty</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class='row' class='spacings'>
+                        <div class="spacings">
+                            <textarea rows="10" cols="60" placeholder="Recipe ingredients and instructions"></textarea>
+                        </div>
+                    </div>  
+                    <div class='row'>
+                        <div class="spacings">
+                            <input name="submit" type='submit'>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class='col-md-6'>
+        	<ul>
+        		<li>Soups</li>
+        		<li>One Pot Wonders!</li>
+        		<li>Rice Dishes</li>
+        		<li>No Oven? No Problem!</li>
+        		<li>Light Bites</li>
+        		<li>Dessert!</li>
+        	</ul>	
+        </div>
+        <script>
+            $("submit").on("click", function() {
+                alert("Submitted!"); 
+            });
+        </script><!--can't get the javascript to work-->
     </body>
 </html>
