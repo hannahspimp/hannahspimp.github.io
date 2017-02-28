@@ -3,6 +3,12 @@
     <head>
     <link rel='stylesheet' href='bootstrap-3.3.7-dist copy/css/bootstrap.css'>
     <link rel="stylesheet" type="text/css" href="ourcss.css">
+    <!-- jQuery library, this is an alternative to downloading jQuery into the website file. It just gives you a direct link to the website. Doesn't need to live on your local machine. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='ourcss.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>"More Than Spaghetti..."</title>
     </head>
@@ -21,23 +27,34 @@
         <h4>It's time to ditch that jar of pasta sauce and start cooking something easy and ten times more tasty!</h4>
         <h3><u>Our Favourite's</u></h3>
        
-        <div class="container">
-        <article>
-            <h2>Tomato Pasta Sauce</h2>
-            <p>Ok so I know we promised More Than Spaghetti but this tomato sauce is an essential.<br> Quick, healthy, easy, and super tasty. It can be served with pasta or with rice and a piece <br> of meat or fish.<br> Servings: 4 </p>
-        </article>
-        <article>
-            <h2>Chicken fajitas</h2>
-            <p>A delicious spicy dish that only needs one pot! <br> Servings: 3 </p>
-        </article>
-        <article>
-            <h2>Risotto</h2>
-            <p>Another one pot dish, with minimal ingredients but great taste. <br> This authentic italian dish is brilliant if you're looking for something cheap. <br> It's not great on speed but it is great on taste. <br> Servings: 2 </p>
-        </article>
-        <article>
-            <h2>Chilli con Carne</h2>
-            <p><!--NEED TEXT HERE--></p>
-        </article>
+        <div class="container"><!--why does chicken fajitas look different to the rest?-->
+            <div class='row'><!-- the rows don't seem to have worked properly-->
+                <div class='col-md-6'>
+                    <article>
+                        <h2>Tomato Pasta Sauce</h2>
+                        <p>Ok so I know we promised More Than Spaghetti but this tomato sauce is an essential.<br> Quick, healthy, easy, and super tasty. It can be served with pasta or with rice and a piece of meat or fish.<br> Servings: 4 </p>
+                    </article>
+                <div class='col-md-6'>
+                    <article>
+                        <h2>Chicken fajitas</h2>
+                        <p>A delicious spicy dish that only needs one pot! <br> Servings: 3 </p>
+                    </article>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-md-6'>
+                    <article>
+                        <h2>Risotto</h2>
+                        <p>Another one pot dish, with minimal ingredients but great taste. <br> This authentic italian dish is brilliant if you're looking for something cheap. <br> It's not great on speed but it is great on taste. <br> Servings: 2 </p>
+                    </article>
+                </div>
+                <div class='col-md-6'>
+                    <article>
+                        <h2>Chilli con Carne</h2>
+                        <p><!--NEED TEXT HERE--></p>
+                    </article>
+                </div>
+            </div>
         </div>
         <div>
             <form> <!--action="script.php" method="post"--><!--Found that action is meant to be of this form but can't work out how you go about storing any of the information from the form?-->
