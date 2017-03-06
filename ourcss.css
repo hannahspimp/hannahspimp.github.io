@@ -1,10 +1,17 @@
 body {
 	text-align: center;
+	background: rgb(188, 179, 180);
+	background-size: contain;
+	color:black;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 20px;
 }
+
 
 h1 {
 	color: purple;
-	font-size: 50px;
+	font-size: 70px;
+	font-weight: bold;
 }
 .spacings{
 	padding: 5px 10px 5px 10px;
@@ -12,40 +19,86 @@ h1 {
 
 h2 {
 	font-size: 20px;
+	font-weight: bold;
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 30px;
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 a {
-	color: rgb(200,0,255);
+	color: rgba(45,158,158,0.75);
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
+	font-style: italic;
 }
 
 ul {
 	padding: 10px;
+	margin: 5px;
 }
+
 li {
 	display: inline;
-	padding:0px 50px 0px 50px;
+	padding:50px;
 }
 
 article {
-	text-align: left;
-	padding: 0px 0px 0px 30px;
+	text-align: centre;
 }
 
-.article {
-	margin: 0 auto;
+.container {
+	padding: 50px;
 }
 
 
+.first{
+  background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/tomato_zpsuvepqxev.jpg");
+  height: 225px;
+  padding: 40px;
+  position: relative;
 
-<!---Hannah= Top links and link up list---> 
+}
+.second{
+  background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/fajitas_zpsghquyy5j.jpg");
+  height: 225px;
+  width: 500px;
+  padding: 40px;
+  position: relative;
+}
+.third {
+	background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Risotto_zpsldxspkwf.jpg");
+	height: 225px;
+	padding: 40px;
+	position: relative;
+}
+.fourth{
+  background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Chilli_zpsyf2uv8xk.jpg");
+  height: 225px;
+  padding: 40px;
+  position: relative;
+}
+.show-description p {
+	height: 150px;
+}
 
+h2 span {
+	color: white;
+	letter-spacing: -1px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+	padding: 5px;
+	font-size: 25px;
+}
+
+p span {
+	color: white;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.7);
+	padding: 2px;
+	font-size: 18px;
+}

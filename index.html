@@ -11,19 +11,22 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel='stylesheet' type='text/css' href='ourcss.css'>
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>"More Than Spaghetti..."</title>
     </head>
     <body>
     	<header>
-    		<ul>
-    			<li>
-    				<a href="#">Carnivore</a>
-    			</li>
-    			<li>
-    				<a href="#">Herbivore</a>
-    			</li>
-   			</ul>
+    		 <div>
+            <ul>
+                <li><a href="#">Soups</a></li>
+                <li><a href="#">One Pot Wonders!</a></li>
+                <li><a href="#">Rice Dishes</a></li>
+                <li><a href="#">No Oven? No Problem!</a></li>
+                <li><a href="#">Light Bites</a></li>
+                <li><a href="#">Dessert!</a></li>
+            </ul>   
+        </div>
     		<h1>"More Than Spaghetti..."</h1>
     	</header>
         <h4>It's time to ditch that jar of pasta sauce and start cooking something easy and ten times more tasty!</h4>
@@ -33,30 +36,42 @@
             <div class='row'><!-- the rows don't seem to have worked properly-->
                 <div class='col-md-6'>
                     <article>
-                        <h2>Tomato Pasta Sauce</h2>
-                        <p>Ok so I know we promised More Than Spaghetti but this tomato sauce is an essential.<br> Quick, healthy, easy, and super tasty. It can be served with pasta or with rice and a piece of meat or fish.<br> Servings: 4 </p>
+                    <div class="first">
+                        <h2><span>Tomato Pasta Sauce</span></h2>
+                        <p><span>Ok so I know we promised More Than Spaghetti but this tomato sauce is an essential. Quick, healthy, easy, and super tasty. It can be served with pasta or with rice and a piece of meat or fish.<br> Servings: 4 </span></p>
+                    </div>
                     </article>
                 <div class='col-md-6'>
                     <article>
-                        <h2>Chicken fajitas</h2>
-                        <p>A delicious spicy dish that only needs one pot! <br> Servings: 3 </p>
+                    <div class="second">
+                        <h2><span>Chicken fajitas</span></h2>
+                        <p><span>A delicious spicy dish that only needs one pot! You can get inventive with this dish and throw in any leftovers that are lurking in the back of the fridge: peppers, mushrooms, courgettes...<br> Servings: 3 </span></p>
+                    </div>
                     </article>
                 </div>
             </div>
             <div class='row'>
                 <div class='col-md-6'>
                     <article>
-                        <h2>Risotto</h2>
-                        <p>Another one pot dish, with minimal ingredients but great taste. <br> This authentic italian dish is brilliant if you're looking for something cheap. <br> It's not great on speed but it is great on taste. <br> Servings: 2 </p>
+                    <div class="third">
+                        <h2><span>Risotto</span></h2>
+                        <p><span>Another one pot dish, with minimal ingredients but great taste. <br> This authentic italian dish is brilliant if you're looking for something cheap. <br> It's not great on speed but it is great on taste. <br> Servings: 2 </span></p>
+                    </div>
                     </article>
                 </div>
                 <div class='col-md-6'>
                     <article>
-                        <h2>Chilli con Carne</h2>
-                        <p><!--NEED TEXT HERE--></p>
+                    <div class="fourth">
+                        <h2><span>Chilli con Carne</span></h2>
+                        <p><span>You can make this dish as spicy as you like! To give it a real Mexican twist, <br> add a side of nachos and dig in! <br> Servings: 4 </span></p>
+                    </div>
                     </article>
                 </div>
             </div>
+                     <script>$('div').on('click', function() {
+                    $(this).toggleClass('show-description');
+                    });
+                    </script>
         </div>
         <div>
             <form> <!--action="script.php" method="post"--><!--Found that action is meant to be of this form but can't work out how you go about storing any of the information from the form?-->
@@ -93,24 +108,10 @@
                 </div>
             </form>
         </div>
-        <div class='col-md-6'>
-        	<ul>
-        		<li>Soups</li>
-        		<li>One Pot Wonders!</li>
-        		<li>Rice Dishes</li>
-        		<li>No Oven? No Problem!</li>
-        		<li>Light Bites</li>
-        		<li>Dessert!</li>
-        	</ul>	
-        </div>
         <script>
             $("submit").on("click", function() {
                 alert("Submitted!"); 
             });
-        </script><!--can't get the javascript to work-->
-
-       	 <!--<div class="row">
-       	 	<div class="col-md-4">
-       	 	</div>-->
+        </script><!--can't get the javascript to work. (Me neither! See above-->
     </body>
 </html>
