@@ -16,6 +16,14 @@
         <title>"More Than Spaghetti..."</title>
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     	<header>
     		 <div>
             <ul>
@@ -24,7 +32,7 @@
                 <li><a href="#">Rice Dishes</a></li>
                 <li><a href="#">No Oven? No Problem!</a></li>
                 <li><a href="#">Light Bites</a></li>
-                <li><a href="#">Desserts!</a></li>
+                <li><a href="#">Dessert!</a></li>
             </ul>   
         </div>
     		<h1>"More Than Spaghetti..."</h1>
@@ -113,5 +121,6 @@
                 alert("Submitted!"); 
             });
         </script><!--can't get the javascript to work. (Me neither! See above-->
+     <div class="fb-share-button" data-href="https://hannahspimp.github.io/" data-layout="box_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhannahspimp.github.io%2F&amp;src=sdkpreparse">Share</a></div>
     </body>
 </html>
