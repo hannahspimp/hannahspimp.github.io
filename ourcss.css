@@ -48,39 +48,38 @@ li {
 }
 
 article {
-	text-align: centre;
+	text-align: center;
 }
 
 .container {
+	background-size: cover;
 	padding: 50px;
+	width: 1000px;
 }
 
 
 .first{
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/tomato_zpsuvepqxev.jpg");
   height: 225px;
-  padding: 40px;
+
   position: relative;
 
 }
 .second{
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/fajitas_zpsghquyy5j.jpg");
   height: 225px;
-  width: 500px;
-  padding: 40px;
   position: relative;
 }
 .third {
 	background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Risotto_zpsldxspkwf.jpg");
 	height: 225px;
-	padding: 40px;
 	position: relative;
 }
 .fourth{
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Chilli_zpsyf2uv8xk.jpg");
   height: 225px;
-  padding: 40px;
   position: relative;
+  bottom: 0;
 }
 .show-description p {
 	height: 150px;
