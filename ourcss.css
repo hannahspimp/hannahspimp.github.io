@@ -105,4 +105,5 @@ p span {
 }
 
 #grad {
+	background: linear-gradient(to right, rgba(255,0,0,0), rgba(247,164,86,1));
 }
