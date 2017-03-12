@@ -61,7 +61,6 @@ article {
 .first{
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/tomato_zpsuvepqxev.jpg");
   height: 225px;
-
   position: relative;
 
 }
@@ -82,7 +81,7 @@ article {
   bottom: 0;
 }
 .show-description p {
-	height: 100px;
+	height: 25px;
 }
 
 h2 span {
