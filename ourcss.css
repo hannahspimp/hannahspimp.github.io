@@ -82,7 +82,7 @@ article {
   bottom: 0;
 }
 .show-description p {
-	height: 150px;
+	height: 100px;
 }
 
 h2 span {
@@ -92,6 +92,8 @@ h2 span {
 	background: rgba(0,0,0,0.7);
 	padding: 5px;
 	font-size: 25px;
+	position: relative;
+	top: 20px;
 }
 
 p span {
@@ -100,4 +102,6 @@ p span {
 	background: rgba(0,0,0,0.7);
 	padding: 2px;
 	font-size: 18px;
+	position: relative;
+	top: 25px;
 }
