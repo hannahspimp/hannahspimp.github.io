@@ -5,7 +5,10 @@ body {
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-size: 20px;
 }
-
+header{
+	background: url('http://i1356.photobucket.com/albums/q737/Hannah_Prentice/spag_zpsa1xqsak0.jpg');
+	background-size: cover;
+}
 
 h1 {
 	color: purple;
