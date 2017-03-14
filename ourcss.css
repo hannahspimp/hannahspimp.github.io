@@ -60,7 +60,6 @@ article {
 	background-size: cover;
 	padding: 50px;
 	width: 1000px;
-	max-width: 1000px;
 }
 
 
@@ -69,6 +68,7 @@ article {
   height: 225px;
   position: relative;
   border-radius:12px;
+  max-width: 500px;
 
 
 }
@@ -77,12 +77,14 @@ article {
   height: 225px;
   position: relative;
   border-radius:12px;
+  max-width: 500px;
 }
 .third {
 	background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Risotto_zpsldxspkwf.jpg");
 	height: 225px;
 	position: relative;
 	border-radius:12px;
+	max-width: 500px;
 }
 .fourth{
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Chilli_zpsyf2uv8xk.jpg");
@@ -90,6 +92,7 @@ article {
   position: relative;
   bottom: 0;
   border-radius:12px;
+  max-width: 500px;
 }
 .show-description p {
 	height: 25px;
