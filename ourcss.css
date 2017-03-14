@@ -60,6 +60,7 @@ article {
 	background-size: cover;
 	padding: 50px;
 	width: 1000px;
+	max-width: 1000px;
 }
 
 
