@@ -67,23 +67,28 @@ article {
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/tomato_zpsuvepqxev.jpg");
   height: 225px;
   position: relative;
+  border-radius:12px;
+
 
 }
 .second{
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/fajitas_zpsghquyy5j.jpg");
   height: 225px;
   position: relative;
+  border-radius:12px;
 }
 .third {
 	background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Risotto_zpsldxspkwf.jpg");
 	height: 225px;
 	position: relative;
+	border-radius:12px;
 }
 .fourth{
   background-image: url("http://i1356.photobucket.com/albums/q737/Hannah_Prentice/Chilli_zpsyf2uv8xk.jpg");
   height: 225px;
   position: relative;
   bottom: 0;
+  border-radius:12px;
 }
 .show-description p {
 	height: 25px;
@@ -108,6 +113,10 @@ p span {
 	font-size: 18px;
 	position: relative;
 	top: 25px;
+}
+
+.image-align{
+	margin: 0 auto;	
 }
 
 /*#grad {
